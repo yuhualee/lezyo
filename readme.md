@@ -5,6 +5,10 @@
 	如果没打印出正确的版本，则执行以下代码安装
 
 		ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+	
+	OS X 10.10 的使用以下安装方式
+	
+		ruby -e "$(curl -fsSL https://gist.githubusercontent.com/jpincheira/bd3698fee46735fac252/raw/2c6a2f81927871c1a64e2dfbbc5eef451c71a9ac/homebrew.rb)"
 
 * 安装 nodejs 
 	
