@@ -6,9 +6,10 @@
 
 		ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 	
-	OS X 10.10 的使用以下安装方式
+	如果是 OS X 10.10 安装后可能运行不了 可参照 <http://www.mseri.me/fix-hombrew-on-os-x-yosemite/>
 	
-		ruby -e "$(curl -fsSL https://gist.githubusercontent.com/jpincheira/bd3698fee46735fac252/raw/2c6a2f81927871c1a64e2dfbbc5eef451c71a9ac/homebrew.rb)"
+		vim /usr/local/Library/brew.rb // 将 1.8 改为 2.0
+	
 
 * 安装 nodejs 
 	
@@ -18,7 +19,7 @@
 		
 		brew install node
 		
-* 安装 yo bower 和 gulp
+* 安装  bower 和 gulp
 
 		npm install -g bower gulp
 
