@@ -33,7 +33,7 @@
 * 克隆代码
 		
 		cd ~/code/
-		git@github.com:yuhualee/lezyo.git
+		git clone git@github.com:yuhualee/lezyo.git
 		cd lezyo
 		
 * 安装 node 插件
